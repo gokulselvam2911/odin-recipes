@@ -34,6 +34,7 @@ This project is an assignment for [The Odin Project](https://www.theodinproject.
 ## How to View
 1. Clone this repository to your local machine.
 2. Open `index.html` in your browser to explore the recipes.
+3. Alternatively, view the live version of the website at: [Odin Recipes](https://odin-recipes-gokul.netlify.app/)
 
 ## Preview
 ![Home Page](images/home_page.png)
