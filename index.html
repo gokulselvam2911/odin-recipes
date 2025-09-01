@@ -1,46 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">🍲 Odin Recipes</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Sign Up</a>
+        </nav>
+    </header>
 
-    <div>
-        <a href="recipes/pongal.html">
-            <img src="images/ven-pongal.jpg" alt="Pongal" width="200"><br>
-            Pongal
-        </a>
-    </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Odin Recipes</h1>
+        <p>Discover delicious South Indian dishes with simple ingredients and easy steps.</p>
+    </section>
 
-    <div>
-        <a href="recipes/idli_sambhar.html">
-            <img src="images/Idli-and-Sambar-1.jpg" alt="Idli Sambhar" width="200"><br>
-            Idli Sambhar
-        </a>
-    </div>
+    <!-- Recipes Grid -->
+    <main class="recipes">
+        <div class="card">
+            <a href="recipes/pongal.html">
+                <img src="images/ven-pongal.jpg" alt="Pongal">
+                <h3>Pongal</h3>
+            </a>
+        </div>
 
-    <div>
-        <a href="recipes/dosa.html">
-            <img src="images/dosa.jpg" alt="Dosa" width="200"><br>
-            Dosa
-        </a>
-    </div>
+        <div class="card">
+            <a href="recipes/idli_sambhar.html">
+                <img src="images/Idli-and-Sambar-1.jpg" alt="Idli Sambhar">
+                <h3>Idli Sambhar</h3>
+            </a>
+        </div>
 
-    <div>
-        <a href="recipes/sambar.html">
-            <img src="images/sambar.jpg" alt="Sambar" width="200"><br>
-            Sambar
-        </a>
-    </div>
+        <div class="card">
+            <a href="recipes/dosa.html">
+                <img src="images/dosa.jpg" alt="Dosa">
+                <h3>Dosa</h3>
+            </a>
+        </div>
 
-    <div>
-        <a href="recipes/upma.html">
-            <img src="images/upma.jpg" alt="Upma" width="200"><br>
-            Upma
-        </a>
-    </div>
+        <div class="card">
+            <a href="recipes/sambar.html">
+                <img src="images/sambar.jpg" alt="Sambar">
+                <h3>Sambar</h3>
+            </a>
+        </div>
+
+        <div class="card">
+            <a href="recipes/upma.html">
+                <img src="images/upma.jpg" alt="Upma">
+                <h3>Upma</h3>
+            </a>
+        </div>
+    </main>
+    <section class="quotes">
+        <h2>Food for the Soul</h2>
+        <blockquote>
+            “Food is not just eating energy. It's an experience.” – Guy Fieri
+        </blockquote>
+        <blockquote>
+            “South Indian food is a celebration of spices, simplicity, and soul.”
+        </blockquote>
+        <blockquote>
+            “Good food is the foundation of genuine happiness.” – Auguste Escoffier
+        </blockquote>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Odin Recipes | Built by Gokul for The Odin Project</p>
+    </footer>
 </body>
+
 </html>

@@ -1,47 +1,63 @@
-# Odin Recipes
+# Odin Recipes & Landing Page
 
-This project is an assignment for [The Odin Project](https://www.theodinproject.com) to practice basic HTML structure and linking. It is a simple recipe website that includes a home page and individual recipe pages.
+This repository contains my work for two assignments from [The Odin Project](https://www.theodinproject.com/):  
 
-## Project Iterations
+1. **Recipes Project (HTML focus)** – to practice basic HTML structure, linking, and building a small website.  
+2. **Landing Page Project (HTML + CSS + Flexbox focus)** – to practice styling and layout using CSS and Flexbox.  
 
-### Iteration 1: Initial Structure
-- Created the `index.html` file with boilerplate HTML.
-- Added an `<h1>` heading titled "Odin Recipes" to the body.
+Instead of keeping them separate, I deliberately **combined both projects into one repo** to simulate how projects naturally evolve (from plain HTML → styled with CSS).  
+This also shows how incremental iterations build upon each other.
 
-### Iteration 2: Recipe Page
-- Created a `recipes` directory to store individual recipe pages.
-- Added an HTML file for each recipe (e.g., `pongal.html`,  `dosa.html`, `idli_sambhar.html`).
-- Each recipe page includes:
-  - Boilerplate HTML.
-  - An `<h1>` heading with the recipe name.
-  - A link back to the home page (`index.html`).
+---
 
-### Iteration 3: Recipe Page Content
-- Enhanced each recipe page with the following content:
-  - A free image of the dish.
-  - A "Description" section with a brief overview of the recipe.
-  - An "Ingredients" section with an unordered list of ingredients.
-  - A "Steps" section with an ordered list of instructions.
+## 📌 Project Iterations
 
-### Iteration 4: Add More Recipes
-- Added more recipes (`sambar.html`, `upma.html`) with the same structure as the first recipe page.
-- Updated the `index.html` file to include links to all recipe pages in an unordered list.
+### Iteration 1–4: HTML-only version
+- Basic HTML structure and navigation.  
+- Recipe pages with descriptions, ingredients, and steps.  
+- Homepage linking all recipes.  
 
-## Features
-- Simple navigation between the home page and recipe pages.
-- Clear and consistent structure for all recipe pages.
+📸 Preview:  
+![HTML-only Home Page](images/home_page.png)
 
-## How to View
-1. Clone this repository to your local machine.
-2. Open `index.html` in your browser to explore the recipes.
-3. Alternatively, view the live version of the website at: [Odin Recipes](https://odin-recipes-gokul.netlify.app/)
+---
 
-## Preview
-![Home Page](images/home_page.png)
+### Iteration 5: Styling with CSS (Landing Page Assignment)
+- Added `style.css` to introduce styling with Flexbox.  
+- Designed a consistent **header, hero section, recipe cards grid, and footer**.  
+- Added background colors and theme inspired by **South Indian food culture**.  
+- Unified look and feel across all recipe pages.  
+- Added inspirational food quotes above the footer.  
 
-## Recipes Included
-- Dosa
-- Idli Sambhar
-- Pongal
-- Sambar
-- Upma
+📸 Preview:  
+![Styled Home Page](images/home_page_1.png)
+
+---
+
+## 🚀 Live Demo
+- **GitHub Repo:** [odin-recipes](https://github.com/gokulselvam2911/odin-recipes)  
+- **Netlify Deployment:** [Odin Recipes on Netlify](https://odin-recipes-gokul.netlify.app/)  
+
+---
+
+## 📖 Skills Demonstrated
+- Semantic HTML structure.  
+- Linking pages and organizing a project.  
+- CSS styling and theming.  
+- Flexbox for layout and alignment.  
+- Incremental project building & version control (commits/iterations).  
+
+---
+
+## 🔮 Future Plans
+I plan to extend this project further into something like an **Instagram for Recipes**:
+- User authentication (login/register).  
+- Add & share recipes.  
+- Comments & likes.  
+- Personalized recipe feeds.  
+
+---
+
+## 🙌 Acknowledgments
+- Project guidelines from [The Odin Project](https://www.theodinproject.com).  
+- Free food images from [Unsplash](https://unsplash.com/) and [Pexels](https://pexels.com/).  

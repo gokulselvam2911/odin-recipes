@@ -1,0 +1,192 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8f0; /* sandalwood beige */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #b33c00; /* deep spice red */
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav a {
+  color: #ffe066; /* turmeric yellow */
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #fff3cd; /* lighter turmeric shade */
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #fef6d8; /* turmeric light yellow */
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #b33c00; /* spice red */
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Recipes Grid */
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card h3 {
+  padding: 15px 0;
+  color: #b33c00; /* spice red */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #228B22; /* banana leaf green */
+  color: #fff;
+  margin-top: 30px;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin: 20px;
+  color: #b33c00; /* spice red */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+  color: #ff914d; /* softer orange highlight */
+}
+
+/* Recipe Page Layout */
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.recipe-container img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Recipe Details */
+.recipe-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.recipe-details h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #b33c00; /* spice red */
+}
+
+.recipe-details .description {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.recipe-details h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #228B22; /* banana leaf green */
+  border-bottom: 2px solid #ffc107; /* turmeric yellow underline */
+  padding-bottom: 5px;
+}
+
+.recipe-details ul,
+.recipe-details ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe-details li {
+  margin-bottom: 5px;
+}
+
+.quotes {
+  background-color: #fff8f0;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  border-top: 2px solid #ff914d;
+}
+
+.quotes h2 {
+  font-size: 1.8rem;
+  color: #b33c00;
+  margin-bottom: 1rem;
+}
+
+.quotes blockquote {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #444;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
